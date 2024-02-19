@@ -1,0 +1,196 @@
+body{
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    background: linear-gradient(217deg, #360c3e, #360c3e46 70.71%),
+            linear-gradient(127deg, #650877, #360c3e1f 70.71%),
+            linear-gradient(336deg, #dbba2e, rgba(238, 255, 0, 0.274) 70.71%);
+}
+.tudo{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 0;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: 5%
+}
+
+
+
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+.hud{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    height: max-content;
+    justify-content: space-between;
+    padding:1.5rem;
+    padding-top: 20px;
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.377);
+    background-color: rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.areaInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.novoLoginEspaco{
+    width: 80%;
+    display: flex;
+    border: 2px solid grey;
+    border-radius:20px;
+    align-items: center;
+    gap: 3px;
+    background-color:none;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    transition: all 1s;
+}
+.novoLoginEspaco:focus-within{
+    width: 83%;
+    color: rgb(65, 0, 65);
+    border: 2px groove rgb(65, 0, 65);
+}
+
+.novoLoginEspaco input{
+     background-color: none;
+     outline: none;
+     border: none;
+     font-size: 1.3rem;
+     width: 100%;
+}
+.espacoInputSenha{
+    width: 80%;
+    display: flex;
+    border: 2px solid grey;
+    border-radius:20px;
+    align-items: center;
+    gap: 1px;
+    background-color:none;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    transition: all 1s;
+}
+    .espacoInputSenha:focus-within{
+        width: 83%;
+        color: rgb(65, 0, 65);
+        border: 2px solid rgb(65, 0, 65);
+    }
+
+    .novaSenhaEspaco{
+        width: 80%;
+        display: flex;
+        border: 2px solid grey;
+        border-radius:20px;
+        align-items: center;
+        gap: 1px;
+        background-color:none;
+        padding: 5px 10px;
+        margin-bottom: 0;
+        transition: all 1s;
+        margin-bottom: 30px;
+    }
+        .novaSenhaEspaco:focus-within{
+            width: 83%;
+            color: rgb(65, 0, 65);
+            border: 2px groove rgb(65, 0, 65);
+        }
+    .novaSenhaInput{
+        background-color: none;
+         outline: none;
+         border: none;
+         font-size: 1.3rem;
+         width: 100%;
+    }
+
+.areaCorfirmeSenhaInput{
+        width: 80%;
+        display: flex;
+        border: 2px solid grey;
+        border-radius:20px;
+        align-items: center;
+        gap: 1px;
+        background-color:none;
+        padding: 5px 10px;
+        margin-bottom: 0;
+        transition: all 1s;
+    }
+        .areaCorfirmeSenhaInput:focus-within{
+            width: 83%;
+            color: rgb(65, 0, 65);
+            border: 2px groove rgb(65, 0, 65);
+        }
+    .confirmeSenhaInput{
+        background-color: none;
+         outline: none;
+         border: none;
+         font-size: 1.3rem;
+         width: 100%;
+    }
+
+.areaBotoes{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#btnDesign{
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+     margin-top: 0;
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(224, 224, 224);
+    transition: 0.3s all;
+    font-size: 17px;
+}
+#btnDesign:hover{
+    width: 80%;
+    color: wheat;
+    background-color: blueviolet;
+    cursor: pointer;
+    border: 0;
+}
+
+#togglePass{
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-color: #dbba2e;
+    padding: 5px;
+}
+
+.voltar{
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ;
+}.voltar:hover{
+    background-color: blueviolet;
+    color: white;
+}

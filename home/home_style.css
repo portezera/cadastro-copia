@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#enviar{
+    margin-top: 20px;
+}
+
+.tudo{
+    width: 90%;
+    align-self: center;
+    margin: auto;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.table{
+    margin-top: 30px;
+}
+th{
+    margin-right: 2px ;
+}
+
+.areaQrcode{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 300px;
+    justify-content: space-between;
+    margin: auto;
+}
+
